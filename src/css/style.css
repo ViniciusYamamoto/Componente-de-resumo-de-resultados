@@ -1,0 +1,182 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(hsl(0, 0%, 100%),hsl(221, 100%, 96%));
+}
+
+section{
+    width: 730px;
+    height: 510px;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+section .resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 365px;
+    height: 510px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),
+     hsl(241, 81%, 54%));
+    border-radius: 20px;
+}
+
+.titulo{
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+section .circulo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: aliceblue;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(246, 82%, 56%, 0.9));
+    align-items: center;
+    justify-content: center;
+}
+
+section .circulo-numero {
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100%;
+}
+
+section .circulo-texto{
+    font-size: 14px;
+    color:  hsl(241, 100%, 89% );
+    opacity: 0.5;
+}
+
+.subtitulo{
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.texto-resultado{
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    margin: 0 15%;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.sumario{
+    display: flex;
+    width: 365px;
+    height: 510px;
+    flex-direction: column;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h5{
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    margin: 40px 40px 35px;
+}
+
+ul>li{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 40px 15px;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.reaction::before{
+    content: url(../images/icon-reaction.svg);
+}
+
+div ul .reaction{
+    background-color: rgba(208, 122, 124, 0.1);
+}
+
+.reaction-texto{
+    position: relative;
+    left: -10%;
+    color: hsl(0, 100%, 67%);
+}
+
+.memory::before{
+    content: url(../images/icon-memory.svg);
+}
+
+div ul .memory{
+    background-color: rgba(246, 194, 91, 0.1);
+}
+
+.memory-texto{
+    position: relative;
+    left: -10%;
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal::before{
+    content: url(../images/icon-verbal.svg);
+}
+
+.verbal{
+    background-color: rgba(30, 153, 122, 0.1);
+}
+
+.verbal-texto{
+    position: relative;
+    left: -12%;
+    color: hsl(166, 100%, 37%);
+}
+
+.visual::before{
+    content: url(../images/icon-visual.svg);
+}
+
+.visual{
+    background-color: rgba(56, 64, 180, 0.1);
+}
+
+.visual-texto{
+    position: relative;
+    left: -13%;
+    color: hsl(234, 85%, 45%);
+}
+
+.reaction-numero, .memory-numero, .verbal-numero, .visual-numero{
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    position: relative;
+    left: 10%;
+}
+
+.porcento{
+    color: hsl(60, 1%, 68%);
+}
+
+.botao{
+    border: none;
+    margin: 40px 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    font-size: 16px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: hsl(241, 81%, 54%);
+}
